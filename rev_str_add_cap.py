@@ -7,6 +7,8 @@ def reverse_sentence_preserve_word_capitalization(input_string):
         else:
             reversed_words.append(word[::-1].lower())
     return " ".join(reversed_words[::-1])
+    # to reverse a each word
+    # return " ".join(reversed_words)
 
 input_string = "Hello World"
 print(reverse_sentence_preserve_word_capitalization(input_string))
