@@ -1,4 +1,4 @@
-num = 28  # replace with the number you want to check
+num = int(input("Enter the num: "))  # replace with the number you want to check
 # 6, 28, 496, 8128, 33,550,336, 8,589,869,056
 sum_divisors = 0
 for i in range(1, num):
