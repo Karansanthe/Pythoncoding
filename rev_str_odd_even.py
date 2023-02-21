@@ -1,4 +1,5 @@
 # For even index, if you want for odd (if i % 2 != 0)
+
 input_string = "I love python programming and Java"
 words = input_string.split()
 reversed_words = []

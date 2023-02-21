@@ -1,3 +1,5 @@
+# Revese word with adding cap
+
 def reverse_capital_words(input_string):
     words = input_string.split()
     reversed_words = []
