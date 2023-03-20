@@ -16,5 +16,4 @@ for i in range(len(input_string)):
         word_start = i + 1
 reversed_string += input_string[word_start:][::-1]
 print(reversed_string)
-
 """

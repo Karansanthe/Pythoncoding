@@ -23,4 +23,3 @@ print(d)
 # Print only key-value pairs
 for key, value in d.items():
     print(key, value)
-

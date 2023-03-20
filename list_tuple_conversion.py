@@ -3,7 +3,7 @@ b = [3, 4]
 d = [5, 6]
 e = ['Hey', 'There']
 
-# Using the extend method
+# Using the extent method
 a.extend(b)
 print(a)
 

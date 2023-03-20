@@ -10,12 +10,14 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 print(even_numbers)  # Output: [2, 4, 6, 8, 10]
 
+
 # Compared with def fun
 
 # Example 1: A simple function that adds two numbers using def keyword:
 
 def add_numbers(x, y):
     return x + y
+
 
 result = add_numbers(3, 5)
 print(result)  # Output: 8
@@ -27,6 +29,7 @@ add_numbers = lambda x, y: x + y
 result = add_numbers(3, 5)
 print(result)  # Output: 8
 
+
 # Example 3: A function that uses an if statement to check whether a number is even or odd using def keyword:
 
 def is_even(x):
@@ -34,6 +37,7 @@ def is_even(x):
         return True
     else:
         return False
+
 
 result = is_even(4)
 print(result)  # Output: True
@@ -44,7 +48,3 @@ is_even = lambda x: True if x % 2 == 0 else False
 
 result = is_even(4)
 print(result)  # Output: True
-
-
-
-

@@ -13,4 +13,3 @@ print(unique_list)
 unique_list = [x for i, x in enumerate(my_list) if x not in my_list[:i]]
 
 print(unique_list)
-
