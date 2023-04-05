@@ -8,9 +8,6 @@ print(g.__next__())
 print(g.__next__())
 print(g.__next__())
 
-for i in g:
-    print(i)
-
 h = "Hello"
 ier = iter(h)
 print(ier.__next__())
