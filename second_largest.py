@@ -19,8 +19,10 @@ else:
 
     print(f"The second largest element in the array is {second_largest}.")
 
-# Second-largest element in an array using sorting:
+
 """
+#Second-largest element in an array using sorting:
+
 arr = [3, 6, 1, 8, 4, 2, 9, 5]
 arr.sort(reverse=True)
 print(arr[1])
