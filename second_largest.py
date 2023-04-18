@@ -25,3 +25,15 @@ arr = [3, 6, 1, 8, 4, 2, 9, 5]
 arr.sort(reverse=True)
 print(arr[1])
 """
+
+"""
+#using heapq
+
+import heapq
+
+arr = [3, 5, 2, 8, 1, 9, 4, 6]
+
+largest_two = heapq.nlargest(2, arr)
+second_largest = largest_two[1]
+
+print(second_largest)"""
