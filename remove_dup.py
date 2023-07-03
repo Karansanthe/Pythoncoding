@@ -8,8 +8,10 @@ unique_list = list(unique_set)
 
 print(unique_list)
 
-# Alternatively, you can use a list comprehension to achieve the same result:
-
-unique_list = [x for i, x in enumerate(my_list) if x not in my_list[:i]]
-
-print(unique_list)
+# Using not in
+arr = [1, 2, 1, 3, 1]
+un = []
+for i in arr:
+    if i not in un:
+        un.append(i)
+print(un)
