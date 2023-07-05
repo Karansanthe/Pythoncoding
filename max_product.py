@@ -1,9 +1,7 @@
-numbers = [1, 2, 3, 4, 5, -9, -9]
+numbers = [1, 2, 3, 4, 5, -9, -9, 10, -10]
 
-max1 = float('-inf')  
-max2 = float('-inf')
-min1 = float('inf')
-min2 = float('inf')
+max1 = max2 =  float('-inf')
+min1 = min2 = float('inf')
 
 for num in numbers:
     if num > max1:
