@@ -15,3 +15,12 @@ for i in arr:
     if i not in un:
         un.append(i)
 print(un)
+
+input_list = [1, 2, 3, 4, 4]
+n = len(input_list)
+count = {}
+
+for i in input_list:
+    count[i] = count.get(i, 0) + 1
+    if count[i] > 1:
+        print(i)
