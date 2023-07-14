@@ -4,7 +4,7 @@ def gcd(a,b):
 	return gcd(b % a, a)
 
 def lcm(a,b):
-	return (a // gcd(a,b))* b
+	return a * b // gcd(a, b)
 
 a = 15
 b = 20
