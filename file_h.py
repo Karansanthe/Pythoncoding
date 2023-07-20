@@ -11,3 +11,9 @@ with open(filename, "w") as file:
 
 print("Replaced content:", replaced_content)
 print("Number of occurrences of 'coding':", count)
+
+with open(filename, "r") as file:
+    line = 0
+    for i in file:
+        line += 1
+    print("Number of line:", line)
