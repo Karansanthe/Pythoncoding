@@ -1,9 +1,9 @@
-decimal_number = 42
+decimal_number = 7
 binary_number = bin(decimal_number)[2:]
 
 print(binary_number)
 
-binary_number = '101010'
+binary_number = '111'
 decimal_number = int(binary_number, 2)
 
 print(decimal_number)
