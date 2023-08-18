@@ -1,4 +1,4 @@
-n_terms = int(input("Enter the number of Fibonacci terms to generate: "))
+n_terms = 5
 
 fib_seq = [0, 1]
 while len(fib_seq) < n_terms:
