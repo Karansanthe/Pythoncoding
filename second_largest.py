@@ -5,8 +5,8 @@ n = len(arr)
 if n < 2:
     print("The array should have at least two elements.")
 else:
-    largest = -float('inf')
-    second_largest = -float('inf')
+    largest = float('-inf')
+    second_largest = float('-inf')
 
     for i in range(n):
         if arr[i] > largest:
